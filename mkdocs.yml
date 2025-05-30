@@ -6,8 +6,8 @@ repo_name: dom-caracappa/docs-as-code-starter
 
 theme:
   name: material
-  logo: assets/logo.png  # Optional – remove if not used
-  favicon: assets/favicon.ico  # Optional – remove if not used
+  logo: assets/logo.png  # Optional
+  favicon: assets/favicon.ico  # Optional
   features:
     - navigation.instant
     - navigation.tabs
@@ -18,18 +18,18 @@ theme:
     - content.code.annotate
     - content.tabs.link
   palette:
-  - scheme: default
-    primary: deep orange
-    accent: black
-    toggle:
-      icon: material/lightbulb
-      name: Switch to dark mode
-  - scheme: slate
-    primary: green
-    accent: lime
-    toggle:
-      icon: material/lightbulb-outline
-      name: Switch to light mode
+    - scheme: default
+      primary: deep orange
+      accent: black
+      toggle:
+        icon: material/lightbulb
+        name: Switch to dark mode
+    - scheme: slate
+      primary: green
+      accent: lime
+      toggle:
+        icon: material/lightbulb-outline
+        name: Switch to light mode
   font:
     text: Inter
     code: Fira Code
@@ -63,6 +63,7 @@ markdown_extensions:
   - pymdownx.caret
   - pymdownx.critic
   - pymdownx.details
+  - pymdownx.highlight
   - pymdownx.inlinehilite
   - pymdownx.keys
   - pymdownx.mark
@@ -71,3 +72,5 @@ markdown_extensions:
   - pymdownx.tabbed
   - pymdownx.tasklist:
       custom_checkbox: true
+  - pymdownx.snippets
+  - pymdownx.emoji

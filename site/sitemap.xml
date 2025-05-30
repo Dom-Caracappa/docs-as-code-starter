@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://dom-caracappa.github.io/docs-as-code-starter/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://dom-caracappa.github.io/docs-as-code-starter/ci-cd/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://dom-caracappa.github.io/docs-as-code-starter/customize/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://dom-caracappa.github.io/docs-as-code-starter/deploy/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://dom-caracappa.github.io/docs-as-code-starter/install/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://dom-caracappa.github.io/docs-as-code-starter/structure/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+</urlset>

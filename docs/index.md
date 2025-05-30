@@ -1,17 +1,60 @@
 # Docs-as-Code Starter Kit
 
-Welcome to the Docs-as-Code Starter Kit — a lightweight example of how to write, structure, and deploy modern documentation using Markdown and open source tooling.
+_A modular, version-controlled documentation system — built for clarity, automation, and modern developer collaboration._
 
 ---
 
-## What This Is
+## Tools Used
 
-This is a documentation system powered by:
+- **MkDocs + Material** – static site generator + beautiful responsive theme  
+- **Markdown** – simple, modular content authoring  
+- **GitHub Actions** – automatic CI/CD on push  
+- **GitHub Pages** – zero-cost hosting  
 
-- **MkDocs**: A static site generator geared toward documentation
-- **Material for MkDocs**: A professional, responsive theme
-- **GitHub Actions**: For CI/CD
-- **GitHub Pages**: For hosting
+---
 
-This kit is meant to show how technical writers can version control, modularize, preview, and publish docs just like software engineers.
+## Quick Start
+
+```bash
+git clone https://github.com/Dom-Caracappa/docs-as-code-starter.git
+cd docs-as-code-starter
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+mkdocs serve
+```
+
+---
+
+## Why Docs-as-Code?
+
+By treating documentation as source code, teams can:
+
+    Collaborate like developers
+
+    Automate builds and previews
+
+    Track version history and authorship
+
+    Enforce review and quality gates
+
+    Integrate docs into deployment pipelines
+
+This kit shows how documentation can evolve with the same rigor and tooling as modern software — and how technical writers can lead that transformation.
+
+---
+
+## About This Project
+
+This starter kit was created by Dominick Caracappa as part of a technical writing portfolio to demonstrate Docs-as-Code workflows using:
+
+    MkDocs + Material for structure and theming
+
+    GitHub Actions for continuous integration
+
+    GitHub Pages for live deployment
+
+This project shows how documentation can be versioned, reviewed, and deployed just like code — making it easier for teams to scale quality technical content.
+
+Learn more at [dom.caracappa.com](https://dom.caracappa.com).
 
